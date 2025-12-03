@@ -1,0 +1,9 @@
+input.txt
+test_input*.txt
+cache/
+*.class
+
+
+# Added by cargo
+
+/target
