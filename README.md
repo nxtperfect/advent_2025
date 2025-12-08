@@ -10,8 +10,8 @@ Rust
 
 | Nr. Day | Part 1 Finished | Part 2 Finished |
 | ------- | --------------- | --------------- |
-| 1       | No              | No              |
-| 2       | No              | No              |
+| 1       | Yes             | Yes             |
+| 2       | Yes             | Yes             |
 | 3       | No              | No              |
 | 4       | No              | No              |
 | 5       | No              | No              |
