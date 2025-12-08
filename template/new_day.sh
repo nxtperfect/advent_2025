@@ -1,5 +1,6 @@
 #!/bin/sh
-files=`ls ../ | sed -e s/[^0-9]//g`
+files=`ls ./ | sed -e s/[^0-9]//g`
+# files=`ls ../ | sed -e s/[^0-9]//g`
 number=0
 
 for file in $files

@@ -9,6 +9,7 @@ in
       rustfmt
       crate2nix
       rust-analyzer
+      python312
     ];
     shellHook = ''
       echo "Welcome to Rust dev shell"
