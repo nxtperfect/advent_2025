@@ -7,3 +7,5 @@ cache/
 # Added by cargo
 
 /target
+/.clj-konda
+/.lsp

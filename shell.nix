@@ -10,6 +10,8 @@ in
       crate2nix
       rust-analyzer
       python312
+      clojure
+      clojure-lsp
     ];
     shellHook = ''
       echo "Welcome to Rust dev shell"

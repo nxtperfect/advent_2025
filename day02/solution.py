@@ -31,7 +31,6 @@ def p2():
             if s[:split] * n == s:
                 res += num
                 break
-    # assert res == 4174379265
     print(res)
 
 
