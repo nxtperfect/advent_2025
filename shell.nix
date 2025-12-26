@@ -4,19 +4,10 @@
 in
   pkgs.mkShell {
     buildInputs = with pkgs; [
-      cargo
-      rustc
-      rustfmt
-      crate2nix
-      rust-analyzer
       python312
-      clojure
-      clojure-lsp
+      python312Packages.numpy
     ];
     shellHook = ''
-      echo "Welcome to Rust dev shell"
-      rustc --version
-      cargo -V
+      echo "Welcome to AoC dev shell"
     '';
-    RUST_SRC_PATH = "${pkgs.rust.packages.stable.rustPlatform.rustLibSrc}";
   }

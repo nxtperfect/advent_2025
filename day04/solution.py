@@ -28,6 +28,10 @@ def part1():
 
 
 def part2():
+    """
+    possible optim: save neighbour '@' for each removed roll
+    then only visit those
+    """
     res = 0
     grid = []
     with open("input.txt") as f:
