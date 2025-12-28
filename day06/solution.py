@@ -33,8 +33,27 @@ def part1():
 
 
 def part2():
-    pass
+    res = 0
+    with open("input.txt") as f:
+        grid = [line.strip("\n") for line in f]
+        cols = list(zip(*grid))
+
+        groups = []
+        group = []
+
+        for col in cols:
+            if set(col) == {" "}:
+                groups.append(group)
+                group = []
+                continue
+            group.append(col)
+        groups.append(group)
+
+        for group in groups:
+            res += eval(group[0][-1].join("".join(line[:-1]) for line in group))
+    print(res)
+    # assert res == 3263827
 
 
-part1()
-# part2()
+# part1()
+part2()
